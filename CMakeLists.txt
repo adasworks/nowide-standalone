@@ -65,7 +65,7 @@ if(BUILD_SHARED OR BUILD_TESTING)
         VERSION 0.0.0 SOVERSION 0
 		CLEAN_DIRECT_OUTPUT 1
 	)
-    target_compile_definitions(nowide PUBLIC DLL_EXPORT)
+    target_compile_definitions(nowide PUBLIC NOWIDE_EXPORT)
     target_include_directories(nowide PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
         $<INSTALL_INTERFACE:include>
