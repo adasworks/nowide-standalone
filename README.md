@@ -1,12 +1,10 @@
 nowide-standalone
 =================
 
-The repository https://github.com/adasworks/nowide-standalone.git contains the
-nowide with boost-dependency. A no-boost, standalone release can be downloaded
-at http://cppcms.com/files/nowide/nowide_standalone.zip.
+The original `nowide` repo can be found at [github/artyom-beilis/nowide](https://github.com/artyom-beilis/nowide), it depends on the boost libraries and has no CMake config-module support.
+The author has released a no-boost, standalone release: http://cppcms.com/files/nowide/nowide_standalone.zip. This for builds upon that release (released around 2015-Sep-24).
 
-This repo is
+These are my changes over the `nowide_standalone` release:
 
-- initialized with that release (2016-Sep-24)
-- some commits made to the original repo were applied here
-- cmake build improved with config-module
+- a few commits made to the original repo were applied here (for details see commit history)
+- CMake improvements including config-module support
